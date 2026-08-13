@@ -9,7 +9,7 @@ const MOCK_DATA = {
   languages: ["JavaScript", "TypeScript", "C", "C++", "PHP"],
   frameworks: ["React", "Next.js", "NestJS", "Laravel"],
   databases: ["MySQL", "PostgreSQL", "MongoDB"],
-  tools: ["Git", "Docker"]
+  tools: ["Git","Docker","SSH","Gitlab","Linux Commands"]
 };
 function App() {
   const [copied, setCopied] = useState(false);
