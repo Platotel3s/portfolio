@@ -5,11 +5,11 @@ import { useState } from 'react';
 
 const MOCK_DATA = {
   name: "Syaiful Yudha Platoteles",
-  role: "Fullstack Developer (4+ Years Experience)",
-  languages: ["JavaScript", "TypeScript", "C", "C++", "PHP"],
-  frameworks: ["React", "Next.js", "NestJS", "Laravel"],
-  databases: ["MySQL", "PostgreSQL", "MongoDB"],
-  tools: ["Git","Docker","SSH","Gitlab","Linux Commands"]
+  role: "Web & Mobile Developer (3+ Years Experience)",
+  languages: ["JavaScript","TypeScript","C","C++","PHP","Dart","Rust"],
+  frameworks: ["React","Next.js","NestJS","Laravel","React Native","Flutter","Actix Web"],
+  databases: ["MySQL","PostgreSQL","MongoDB"],
+  tools: ["Git","Docker","SSH","Gitlab","Linux CLI","bash"]
 };
 function App() {
   const [copied, setCopied] = useState(false);
